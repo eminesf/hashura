@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renderizar Imagens Baseadas na Página</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-offWhite">
+    <div class="flex flex-column items-center gap-2 container justify-between">
+      <div class="header flex items-center justify-center">
+        <div>
+          <button class="button" id="toggleHachuras">Aplicar Hachuras</button>
+        </div>
+      </div>
+
+      <div class="image-container" id="image-container">
+        <img
+          class="image-content"
+          id="apiImage"
+          alt="Imagem da API"
+          style="display: none"
+        />
+      </div>
+
+      <div class="flex justify-center items-center gap-2 footer flex-column">
+        <div class="flex justify-center items-center gap-2">
+          <div>
+            <button class="button" id="previousBtn"><</button>
+            <button class="button" id="goBack10Btn"><<</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <p class="text-white">
+              <input
+                id="pageInput"
+                type="number"
+                value="1"
+                min="1"
+                style="width: 50px; text-align: center"
+              />
+              de <span id="totalPages"></span>
+            </p>
+          </div>
+          <div>
+            <button class="button" id="advance10Btn">>></button>
+            <button class="button" id="nextBtn">></button>
+          </div>
+        </div>
+        <div>
+          <button class="button" id="removeHachurasBtn">
+            Remover Hachuras da página
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Incluindo os arquivos JavaScript -->
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
