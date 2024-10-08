@@ -4,14 +4,14 @@ O site está hospedado no link: https://eminesf.github.io/hashura/
 
 O site não possui nenhum framework, então não é necessário a instalação de nenhuma lib.
 
-Segue link para clonar o repositório: 
+Segue link para clonar o repositório:  
 `git clone https://github.com/eminesf/hashura.git`
 
 Após clonar o repositório, indico a instalação da extensão do VScode Live Server para visualização do projeto.
 
 # Funcionalidades:
 
-* O site possui um botão que você ativa para adicionar hashuras, uma vez o botão ativo com o clique `esquerdo` do mouse você pode adicionar hachuras nas páginas e sendo salvo no local storage do navegador.
+* O site possui um botão que você ativa para adicionar hachuras, uma vez o botão ativo com o clique `esquerdo` do mouse você pode adicionar hachuras nas páginas e sendo salvo no local storage do navegador.
 
 * Para remover uma hachura clique com o botão `direito` do mouse em cima da hachura que quer remover. 
 
