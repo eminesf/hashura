@@ -11,7 +11,7 @@ Após clonar o repositório, indico a instalação da extensão do VScode Live S
 
 # Funcionalidades:
 
-* O site possui um botão que você ativa para adicionar hachuras, uma vez o botão ativo com o clique `esquerdo` do mouse você pode adicionar hachuras nas páginas e sendo salvo no local storage do navegador.
+* O site possui um botão que você ativa para adicionar hachuras, uma vez o botão ativo, com o clique `esquerdo` do mouse você pode adicionar hachuras nas páginas e sendo salvo no local storage do navegador.
 
 * Para remover uma hachura clique com o botão `direito` do mouse em cima da hachura que quer remover. 
 
