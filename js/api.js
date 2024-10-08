@@ -2,7 +2,7 @@ async function fetchImageFromApi(page) {
   const url = "https://api-hachuraservi1.websiteseguro.com/api/document";
 
   const headers = new Headers({
-    Authorization: "Basic 96f9c92582aed580ba10a780e8af7fea57531c9c", // Substitua pela sua chave
+    Authorization: "Basic 96f9c92582aed580ba10a780e8af7fea57531c9c", 
     "Content-Type": "application/x-www-form-urlencoded",
   });
 
